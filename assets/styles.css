@@ -52,3 +52,33 @@ a:hover {
     color: var(--muted);
     font-weight: 600
 }
+
+/* Wrap code blocks to container width (no horizontal scrolling) */
+pre,
+code {
+    white-space: pre-wrap;
+    /* preserve line breaks + wrap long lines */
+    overflow-wrap: anywhere;
+    /* break long tokens (URLs, long words) */
+    word-break: break-word;
+}
+
+pre {
+    max-width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .06);
+    border-radius: .5rem;
+    /* optional: keep a bit of horizontal scroll if you prefer */
+    /* overflow-x: auto; */
+}
+
+/* If Rouge syntax highlighter is used later */
+.highlight pre {
+    white-space: pre-wrap;
+}
+
+/* Natural inline code wrapping */
+code {
+    white-space: break-spaces;
+}
