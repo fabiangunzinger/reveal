@@ -1,0 +1,12 @@
+title: My Minimal Blog
+description: Notes, links, thoughts.
+url: https://myaccount.github.io
+baseurl: /name-of-blog-repo
+permalink: /:title/
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
