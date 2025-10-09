@@ -1,12 +1,11 @@
-title: Becoming
-description: Notes on inner evolution.
+title: Horizons
+description: Notes on becoming.
 url: https://myaccount.github.io
-baseurl: /name-of-blog-repo
+baseurl: /your-repo
 permalink: /:slug/
 markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-# Ensure Liquid date format works the same locally/GitHub
 timezone: Europe/Berlin

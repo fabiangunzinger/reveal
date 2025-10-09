@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+---
+
+<ul class="postlist">
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+    <li class="postitem">
+      <time class="postdate" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
+      <a class="postlink" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

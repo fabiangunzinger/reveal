@@ -1,0 +1,125 @@
+:root {
+    --bg: #092a33;
+    /* deep teal */
+    --fg: #dbe7ed;
+    /* primary text */
+    --muted: #a9bfca;
+    /* secondary text */
+    --link: #9aa6ff;
+    /* violet-ish links */
+    --max: 46rem;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+    line-height: 1.65
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg)
+}
+
+main {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem
+}
+
+a {
+    color: var(--link);
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+/* Header */
+.site-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 .5rem
+}
+
+.nav {
+    display: flex;
+    gap: 1.25rem;
+    margin: .25rem 0 2.25rem
+}
+
+.nav a {
+    color: var(--muted);
+    font-weight: 600
+}
+
+/* Index list: date left, title right */
+.postlist {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.postitem {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    padding: .5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .05)
+}
+
+.postitem:last-child {
+    border-bottom: 0
+}
+
+.postdate {
+    color: var(--muted);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    letter-spacing: .04em;
+    white-space: nowrap
+}
+
+.postlink {
+    font-weight: 700
+}
+
+/* Article */
+article h1 {
+    font-size: 2rem;
+    margin: 0 0 .25rem
+}
+
+article time {
+    color: var(--muted);
+    display: block;
+    margin-bottom: 1rem
+}
+
+p {
+    margin: 1rem 0
+}
+
+pre {
+    background: rgba(255, 255, 255, .06);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: auto
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    color: var(--muted)
+}
+
+@media (max-width:640px) {
+    .postitem {
+        flex-direction: column;
+        align-items: flex-start
+    }
+}
