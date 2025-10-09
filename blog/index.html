@@ -6,7 +6,7 @@ title: Blog
   {% assign posts = site.posts | sort: 'date' | reverse %}
   {% for post in posts %}
   <li class="postitem">
-    <time class="postdate" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
+    <time class="postdate" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
     <a class="postlink" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
