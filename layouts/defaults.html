@@ -1,41 +1,154 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{% seo %}
-<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
-<style>
-:root{--max:46rem;--fg:#111;--muted:#666;--link:#06c}
-*{box-sizing:border-box}
-html{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.6;color:var(--fg)}
-body{margin:2rem}
-main{max-width:var(--max);margin:0 auto}
-a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
-h1,h2,h3{line-height:1.2;margin:1.5rem 0 .5rem}
-p{margin:1rem 0}
-time{color:var(--muted);font-size:.9rem}
-hr{border:none;border-top:1px solid #e6e6e6;margin:2rem 0}
-code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.95em}
-pre{background:#f7f7f7;padding:1rem;overflow:auto;border-radius:.5rem}
-footer{margin:3rem 0;color:var(--muted);font-size:.9rem}
-</style>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+  <style>
+    :root {
+      --fg: #111;
+      --muted: #666;
+      --link: #06c;
+      --border: #e6e6e6;
+      --max: 46rem;
+      --lh: 1.65;
+      --pad: 1.25rem;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    html {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+      line-height: var(--lh);
+      color: var(--fg)
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
+
+    header {
+      margin-bottom: 1.5rem
+    }
+
+    header h1 {
+      font-weight: 700;
+      margin: 0 0 .25rem 0;
+      line-height: 1.2
+    }
+
+    header p {
+      color: var(--muted);
+      margin: .25rem 0 0
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0
+    }
+
+    /* Index list like Bear: title left, date right, single line if possible */
+    .postlist {
+      list-style: none;
+      margin: 0;
+      padding: 0
+    }
+
+    .postitem {
+      display: flex;
+      gap: .75rem;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: .4rem 0;
+      border-bottom: 1px solid #f2f2f2
+    }
+
+    .postitem:last-child {
+      border-bottom: 0
+    }
+
+    .postlink {
+      font-weight: 600
+    }
+
+    .postdate {
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: .95rem
+    }
+
+    article h1 {
+      margin: 0 0 .2rem 0;
+      line-height: 1.2
+    }
+
+    article time {
+      color: var(--muted);
+      font-size: .95rem
+    }
+
+    p {
+      margin: 1rem 0
+    }
+
+    pre {
+      background: #f7f7f7;
+      padding: var(--pad);
+      overflow: auto;
+      border-radius: .5rem
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace
+    }
+
+    footer {
+      margin: 3rem 0 0;
+      color: var(--muted);
+      font-size: .95rem
+    }
+  </style>
 </head>
+
 <body>
-<main>
-<header>
-  <h1><a href="{{ site.baseurl }}/" style="text-decoration:none;">{{ site.title }}</a></h1>
-  <p>{{ site.description }}</p>
-  <hr>
-</header>
+  <main>
+    <header>
+      <h1><a href="{{ site.baseurl }}/" style="text-decoration:none; color:inherit">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+      <hr>
+    </header>
 
-{{ content }}
+    {{ content }}
 
-<footer>
-  <hr>
-  <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
-</footer>
-</main>
+    <footer>
+      <hr>
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+  </main>
 </body>
+
 </html>

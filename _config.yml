@@ -1,12 +1,12 @@
-title: My Minimal Blog
-description: Notes, links, thoughts.
+title: Becoming
+description: Notes on inner evolution.
 url: https://myaccount.github.io
 baseurl: /name-of-blog-repo
-permalink: /:title/
+permalink: /:slug/
 markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-exclude:
-  - README.md
+# Ensure Liquid date format works the same locally/GitHub
+timezone: Europe/Berlin
