@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post
+title: Blog setup
 ---
 
 This is my first real post. Sort of. I'm not gonna write much. But merely want to test whether this really works, and just say how much I like the template. ChatGPT created it for me based on the default layout of `bearblog.dev` (which I really like but don't use because it doesn't integrate with local markdown files, which is a must-have for me).
