@@ -82,3 +82,28 @@ pre {
 code {
     white-space: break-spaces;
 }
+
+/* --- Force-wrap fenced code & inline code --- */
+pre,
+pre code,
+.highlighter-rouge pre,
+.highlight pre,
+.highlight code,
+figure.highlight pre,
+figure.highlight code {
+    white-space: pre-wrap !important;
+    /* keep line breaks, allow wrapping */
+    overflow-wrap: anywhere !important;
+    /* break long tokens/URLs */
+    word-break: break-word !important;
+}
+
+code {
+    white-space: break-spaces !important;
+    /* inline code wraps too */
+}
+
+/* If you previously set horizontal scrolling, neutralize it */
+pre {
+    overflow-x: visible !important;
+}
