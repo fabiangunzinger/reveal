@@ -1,6 +1,6 @@
 ---
 layour: post
-title: Not being afraid is hard
+title: Missing the signs
 ---
 I love Jeff Bezos's story about how he realised that he'd never be a top notch theoretical physicist (look it up if you don't know it). In short: he encountered a fellow student at Princeton who in a few minutes solved a maths problem he couldn't solve together with another student in three hours. In Bezos' telling, this was a pivotal moment in his life that showed him that the path he was on was not his, and that he should be looking he as as good at as his fellow student was in math.
 
