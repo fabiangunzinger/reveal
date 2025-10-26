@@ -1,0 +1,11 @@
+---
+layour: post
+title: Not being afraid is hard
+---
+I love Jeff Bezos's story about how he realised that he'd never be a top notch theoretical physicist (look it up if you don't know it). In short: he encountered a fellow student at Princeton who in a few minutes solved a maths problem he couldn't solve together with another student in three hours. In Bezos' telling, this was a pivotal moment in his life that showed him that the path he was on was not his, and that he should be looking he as as good at as his fellow student was in math.
+
+I love the story. And it also makes me sad. I've had plenty moments like these ever since I started studying economics in 2009. But unlike Bezos, I've ignored them all and pressed on, forcing myself to be good at economics and statistics and math, even though I often had to force myself to do the work, knew that it wasn't really what I was innately good at, and had to force myself to believe that it was what I should do. There was a sort of cognitive dissonance between what I thought I should want and felt that I wanted, except that I never even let myself feel what I wanted.
+
+Now, at the age of 40, I've hit a wall. All the effort I've put in made me decently good at what I do, and working hard has allowed me to rise to a role of high responsibility in applied science. But I'm running out of energy to push myself, and whenever I have to get technical in my work it takes me extreme motivation and I sometimes don't really trust my own judgement. Most importantly, I just notice that I don't really love what I do. I love aspects of it, which is a redeeming feature and a separate post (I think it might be my way out), but I don't like the main aspects of my work: being a technical leader.
+
+This makes me sad. Had I had Bezos' wisdom back in the early 2010s I could have put all that energy, hunger, hard work, and that unique period of time in my 20s and 30s where there were few constraints on my time, I had few responsibilities, and the opportunity costs to working were low – I could have put all of this into something that would by now have accumulated to something that is me, and that I enjoy doing, and that is the foundation of a thriving professional career.

@@ -1,0 +1,7 @@
+---
+layour: post
+title: Not being afraid is hard
+---
+I haven't managed in quite some time. I'm afraid to fail in the eyes of others (mainly my family and relative) and to be a lemon in the eyes of my colleagues. I am impressed very time I read somebody talk about being themselves, or them realising – when finding themselves amidst people who are smarter and better trained then they are – that this is a chance, that they can feel liberated and finally do what they like instead of trying to emulate these other people – because they will never manage. I want to be like that. I know that it's the only rationale thing to. I can even at times glimpse just how amazing if would feel. That it would free me up to be who I am – the only free way to live – and do what I'm good at – which I know there are things – and be free and without the constant need to worry that I'm falling short in the eyes of others.
+
+And yet I fail. Again and again and again. I don't manage to live this way. I'm afraid. Have been for a long time now. I don't want to look back on my life and regret the way I lived it. But right now, I am living in precisely that way when it comes to my work. Changing this is not easy. I keep working on it. And I feel like I'm making progress. But it will require lots more work.
