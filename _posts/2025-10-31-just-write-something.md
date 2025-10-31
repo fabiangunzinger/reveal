@@ -1,0 +1,7 @@
+---
+layour: post
+title: Just write something
+---
+Just write something. That's all I asked of myself this morning. I have only about five minutes before it's time to go make breakfast, so I've told myself that there is no time to write anything meaningful. And so, the directive is to just write something. Meaningful or not. It doesn't matter.
+
+And so I write. Even the mere act of doing it is satisfying, connecting my fingers and awareness to the mind in a way I don't often have time or headspace to do. It's weird to feel that in some sense, I'm plugged in directly to my mind, speaking to myself, listening to what it's saying. It's right there, speaking to me. Part of it is telling me that we have a lot to talk about, it and I – it has been quite a week. And just last night I had another one of those evenings there I was completely fatigued and had a migraine after a day at work that I perceived as incredibly intense. Even when talking about it with M before bed it hit me that another interpretation of the day would have been possible had I been in a different mind state – or were a different person. But for me, yesterday, that alternative wasn't available. And one of the central questions I'm thinking about at the moment is whether it will ever realistically be possible.
